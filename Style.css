@@ -1,0 +1,136 @@
+
+.mainSection {
+    display: flex; 
+    max-width: 100%;
+    height: 640px;
+    margin: 0%;
+}
+
+.leftSection {
+    min-width: auto;
+    max-width: 20%;
+    height: auto;
+    text-align: center;
+    padding: 4%;
+    margin-left: 0%;
+}
+
+.rightSection {
+    padding: 8%;
+    max-width: 50%;
+    height: auto;
+    color: rgb(27, 26, 26);
+text-decoration: wavy;
+}
+
+
+/* Dropdown Button */
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Dropdown button on hover & focus */
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+.scrolling-active .time {
+    border: 2px #E98300 outset;
+    color: #E98300;
+}
+
+.time {
+    color: rgb(15, 14, 14);
+    margin: 20px;
+    padding: 5px;
+    border: 2px white outset;
+}
+
+.navbar {
+  background-color: rgb(99, 86, 86);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 40%;
+    display: center;
+justify-content: right;
+    
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #776b6b;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+  font-size: 17px;
+    margin: 20px;
+}
+
+
+.navbar a:hover {
+    display: flex;
+  background-color: rgb(179, 60, 60);
+  color: rgb(219, 49, 49);
+}
+
+
+.navbar a.active {
+  background-color: #1eeea2;
+  color: rgb(17, 16, 16);
+}
+
+.picSection {
+display: flex; 
+justify-content: right;
+    max-width: 100%;
+    height: 640px;
+    margin: -30%;
+margin-left: 10%;
+padding: 40px;
+}
+

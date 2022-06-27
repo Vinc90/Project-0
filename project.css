@@ -1,0 +1,35 @@
+.navbar {
+  background-color: rgb(99, 86, 86);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 40%;
+    display: center;
+justify-content: right;
+    
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #776b6b;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+  font-size: 17px;
+    margin: 20px;
+}
+
+
+.navbar a:hover {
+    display: flex;
+  background-color: rgb(179, 60, 60);
+  color: rgb(219, 49, 49);
+}
+
+
+.navbar a.active {
+  background-color: #1eeea2;
+  color: rgb(17, 16, 16);
+}
+
