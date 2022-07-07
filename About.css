@@ -232,3 +232,72 @@ border-radius: 8px;
 padding-left: 10px;
 }
 
+.footer-content {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    margin-bottom: auto;
+}
+
+.footer-social {
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fa {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration:wavy;
+    width: 50px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.edit {
+    display: block;
+    border: outset;
+    border-radius: 10%;
+    margin: 40px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+#instagram:hover {
+margin-top: 5px;
+transition: ease-in-out .5s ;
+}
+
+#linkedin:hover {
+    
+    margin-top: 5px;
+    transition: ease-in-out .5s;
+}
+
+
+
+#github:hover {
+  
+    margin-top: px;
+    transition: ease-in-out .5s;
+}
+
+.animate {
+    animation: fade-in 1s ease-in-out both;
+}
+.animate {
+    animation: fade-in 1s ease-in-out both;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
